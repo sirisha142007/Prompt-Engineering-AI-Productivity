@@ -1,0 +1,740 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO54zX9h8nzR9+PPxEGZ1Ni",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "version_major": 2,
+        "version_minor": 0,
+        "state": {
+          "bbfe171d2d30405a83a1ae70c7c41bde": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "HBoxModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "HBoxModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "HBoxView",
+              "box_style": "",
+              "children": [
+                "IPY_MODEL_f7f5a783771c4a06be88447e9a7670ae",
+                "IPY_MODEL_c5a1300f16c64fa18cd8a5a883edd15c",
+                "IPY_MODEL_ff62e41a631b4132add08bd9c7596877"
+              ],
+              "layout": "IPY_MODEL_a523645f3f764e5c9858687cd1008397"
+            }
+          },
+          "f7f5a783771c4a06be88447e9a7670ae": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "HTMLModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "HTMLModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "HTMLView",
+              "description": "",
+              "description_tooltip": null,
+              "layout": "IPY_MODEL_415f64d7ee6444c0998053fabeefa062",
+              "placeholder": "​",
+              "style": "IPY_MODEL_d013a14849504266aaa5c8f34ac2d085",
+              "value": "Loading weights: 100%"
+            }
+          },
+          "c5a1300f16c64fa18cd8a5a883edd15c": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "FloatProgressModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "FloatProgressModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "ProgressView",
+              "bar_style": "success",
+              "description": "",
+              "description_tooltip": null,
+              "layout": "IPY_MODEL_5b57e7a33547462da8b3cafc9c3f420d",
+              "max": 103,
+              "min": 0,
+              "orientation": "horizontal",
+              "style": "IPY_MODEL_c4428502090e4051b5981f7f22e1755b",
+              "value": 103
+            }
+          },
+          "ff62e41a631b4132add08bd9c7596877": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "HTMLModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_dom_classes": [],
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "HTMLModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/controls",
+              "_view_module_version": "1.5.0",
+              "_view_name": "HTMLView",
+              "description": "",
+              "description_tooltip": null,
+              "layout": "IPY_MODEL_c5f94601a6fa4d48afbae0f7abbafcb0",
+              "placeholder": "​",
+              "style": "IPY_MODEL_8c5eef8f98d74c14ac489dcb1ad5a1a4",
+              "value": " 103/103 [00:00&lt;00:00, 3213.64it/s]"
+            }
+          },
+          "a523645f3f764e5c9858687cd1008397": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "415f64d7ee6444c0998053fabeefa062": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "d013a14849504266aaa5c8f34ac2d085": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "DescriptionStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "DescriptionStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "description_width": ""
+            }
+          },
+          "5b57e7a33547462da8b3cafc9c3f420d": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "c4428502090e4051b5981f7f22e1755b": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "ProgressStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "ProgressStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "bar_color": null,
+              "description_width": ""
+            }
+          },
+          "c5f94601a6fa4d48afbae0f7abbafcb0": {
+            "model_module": "@jupyter-widgets/base",
+            "model_name": "LayoutModel",
+            "model_module_version": "1.2.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/base",
+              "_model_module_version": "1.2.0",
+              "_model_name": "LayoutModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "LayoutView",
+              "align_content": null,
+              "align_items": null,
+              "align_self": null,
+              "border": null,
+              "bottom": null,
+              "display": null,
+              "flex": null,
+              "flex_flow": null,
+              "grid_area": null,
+              "grid_auto_columns": null,
+              "grid_auto_flow": null,
+              "grid_auto_rows": null,
+              "grid_column": null,
+              "grid_gap": null,
+              "grid_row": null,
+              "grid_template_areas": null,
+              "grid_template_columns": null,
+              "grid_template_rows": null,
+              "height": null,
+              "justify_content": null,
+              "justify_items": null,
+              "left": null,
+              "margin": null,
+              "max_height": null,
+              "max_width": null,
+              "min_height": null,
+              "min_width": null,
+              "object_fit": null,
+              "object_position": null,
+              "order": null,
+              "overflow": null,
+              "overflow_x": null,
+              "overflow_y": null,
+              "padding": null,
+              "right": null,
+              "top": null,
+              "visibility": null,
+              "width": null
+            }
+          },
+          "8c5eef8f98d74c14ac489dcb1ad5a1a4": {
+            "model_module": "@jupyter-widgets/controls",
+            "model_name": "DescriptionStyleModel",
+            "model_module_version": "1.5.0",
+            "state": {
+              "_model_module": "@jupyter-widgets/controls",
+              "_model_module_version": "1.5.0",
+              "_model_name": "DescriptionStyleModel",
+              "_view_count": null,
+              "_view_module": "@jupyter-widgets/base",
+              "_view_module_version": "1.2.0",
+              "_view_name": "StyleView",
+              "description_width": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sirisha142007/Prompt-Engineering-AI-Productivity/blob/main/RAG%2C%20Embeddings%20%26%20Vector%20Databases\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "V7ktTpuA9ujn"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "!pip install -q pypdf sentence-transformers faiss-cpu transformers accelerate gradio\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import os\n",
+        "import re\n",
+        "import numpy as np\n",
+        "import faiss\n",
+        "import gradio as gr\n",
+        "\n",
+        "from pypdf import PdfReader\n",
+        "from sentence_transformers import SentenceTransformer\n",
+        "from transformers import pipeline\n"
+      ],
+      "metadata": {
+        "id": "GBTpf6RW9w_3"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# Embedding model\n",
+        "embedding_model = SentenceTransformer(\n",
+        "    \"sentence-transformers/all-MiniLM-L6-v2\"\n",
+        ")\n",
+        "\n",
+        "# Language model\n",
+        "generator = pipeline(\n",
+        "    \"text2text-generation\",\n",
+        "    model=\"google/flan-t5-base\",\n",
+        "    device=0 if __import__(\"torch\").cuda.is_available() else -1\n",
+        ")\n",
+        "\n",
+        "print(\"AI models loaded successfully!\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 440,
+          "referenced_widgets": [
+            "bbfe171d2d30405a83a1ae70c7c41bde",
+            "f7f5a783771c4a06be88447e9a7670ae",
+            "c5a1300f16c64fa18cd8a5a883edd15c",
+            "ff62e41a631b4132add08bd9c7596877",
+            "a523645f3f764e5c9858687cd1008397",
+            "415f64d7ee6444c0998053fabeefa062",
+            "d013a14849504266aaa5c8f34ac2d085",
+            "5b57e7a33547462da8b3cafc9c3f420d",
+            "c4428502090e4051b5981f7f22e1755b",
+            "c5f94601a6fa4d48afbae0f7abbafcb0",
+            "8c5eef8f98d74c14ac489dcb1ad5a1a4"
+          ]
+        },
+        "id": "miLtOZQk9zj8",
+        "outputId": "5d583f1f-87a2-4242-a5db-6d55df56d543"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n",
+            "WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "bbfe171d2d30405a83a1ae70c7c41bde"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyError",
+          "evalue": "'The task text2text-generation has been removed from transformers. Use the `text-generation` pipeline with a chat model instead. See the migration guide for more details: https://github.com/huggingface/transformers/blob/main/MIGRATION_GUIDE_V5.md#pipelines'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_2710/2652643583.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m \u001b[0;31m# Language model\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 7\u001b[0;31m generator = pipeline(\n\u001b[0m\u001b[1;32m      8\u001b[0m     \u001b[0;34m\"text2text-generation\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m     \u001b[0mmodel\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m\"google/flan-t5-base\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.13/dist-packages/transformers/pipelines/__init__.py\u001b[0m in \u001b[0;36mpipeline\u001b[0;34m(task, model, config, tokenizer, feature_extractor, image_processor, video_processor, processor, revision, use_fast, token, device, device_map, dtype, trust_remote_code, model_kwargs, pipeline_class, **kwargs)\u001b[0m\n\u001b[1;32m   1010\u001b[0m     \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1011\u001b[0m         \u001b[0;31m# Resolve removed tasks here so that the pipeline and its components are built with the replacement task name\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1012\u001b[0;31m         \u001b[0mtask\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0m_resolve_deprecated_task\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtask\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1013\u001b[0m         \u001b[0mnormalized_task\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtargeted_task\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtask_options\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mcheck_task\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtask\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1014\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mpipeline_class\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.13/dist-packages/transformers/pipelines/__init__.py\u001b[0m in \u001b[0;36m_resolve_deprecated_task\u001b[0;34m(task)\u001b[0m\n\u001b[1;32m    322\u001b[0m     \u001b[0mremoved_task\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"translation\"\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0mtask\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstartswith\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"translation_\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32melse\u001b[0m \u001b[0mtask\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    323\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0mremoved_task\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mREMOVED_TASKS\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 324\u001b[0;31m         raise KeyError(\n\u001b[0m\u001b[1;32m    325\u001b[0m             \u001b[0;34mf\"The task {task} has been removed from transformers. {REMOVED_TASKS[removed_task]} See the migration\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    326\u001b[0m             \u001b[0;34mf\" guide for more details: https://github.com/huggingface/transformers/blob/main/MIGRATION_GUIDE_V5.md#pipelines\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyError\u001b[0m: 'The task text2text-generation has been removed from transformers. Use the `text-generation` pipeline with a chat model instead. See the migration guide for more details: https://github.com/huggingface/transformers/blob/main/MIGRATION_GUIDE_V5.md#pipelines'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "from google.colab import files\n",
+        "\n",
+        "uploaded = files.upload()\n",
+        "\n",
+        "pdf_path = next(iter(uploaded.keys()))\n",
+        "\n",
+        "print(\"Uploaded document:\", pdf_path)\n"
+      ],
+      "metadata": {
+        "id": "X6hlgsA591p3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def extract_text(pdf_path):\n",
+        "    reader = PdfReader(pdf_path)\n",
+        "\n",
+        "    text = \"\"\n",
+        "\n",
+        "    for page in reader.pages:\n",
+        "        page_text = page.extract_text()\n",
+        "\n",
+        "        if page_text:\n",
+        "            text += page_text + \"\\n\"\n",
+        "\n",
+        "    return text\n",
+        "\n",
+        "document_text = extract_text(pdf_path)\n",
+        "\n",
+        "print(\"Text extracted successfully!\")\n",
+        "print(document_text[:1000])\n"
+      ],
+      "metadata": {
+        "id": "J51c8qpc93p3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def chunk_text(text, chunk_size=500, overlap=100):\n",
+        "\n",
+        "    words = text.split()\n",
+        "    chunks = []\n",
+        "\n",
+        "    for i in range(0, len(words), chunk_size - overlap):\n",
+        "\n",
+        "        chunk = \" \".join(words[i:i + chunk_size])\n",
+        "\n",
+        "        if chunk.strip():\n",
+        "            chunks.append(chunk)\n",
+        "\n",
+        "    return chunks\n",
+        "\n",
+        "chunks = chunk_text(document_text)\n",
+        "\n",
+        "print(\"Total chunks:\", len(chunks))\n",
+        "print(\"\\nFirst chunk:\\n\", chunks[0])\n"
+      ],
+      "metadata": {
+        "id": "ekO3MpK297el"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "embeddings = embedding_model.encode(\n",
+        "    chunks,\n",
+        "    convert_to_numpy=True,\n",
+        "    show_progress_bar=True\n",
+        ")\n",
+        "\n",
+        "embeddings = embeddings.astype(\"float32\")\n",
+        "\n",
+        "print(\"Embeddings generated!\")\n",
+        "print(\"Embedding shape:\", embeddings.shape)\n"
+      ],
+      "metadata": {
+        "id": "cFDGmYRz-BJo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "dimension = embeddings.shape[1]\n",
+        "\n",
+        "index = faiss.IndexFlatIP(dimension)\n",
+        "\n",
+        "# Normalize embeddings for cosine similarity\n",
+        "faiss.normalize_L2(embeddings)\n",
+        "\n",
+        "index.add(embeddings)\n",
+        "\n",
+        "print(\"FAISS vector database created!\")\n",
+        "print(\"Total vectors:\", index.ntotal)\n"
+      ],
+      "metadata": {
+        "id": "nRgdgNaf-DOv"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def retrieve_documents(question, top_k=3):\n",
+        "\n",
+        "    query_embedding = embedding_model.encode(\n",
+        "        [question],\n",
+        "        convert_to_numpy=True\n",
+        "    ).astype(\"float32\")\n",
+        "\n",
+        "    faiss.normalize_L2(query_embedding)\n",
+        "\n",
+        "    scores, indices = index.search(\n",
+        "        query_embedding,\n",
+        "        min(top_k, index.ntotal)\n",
+        "    )\n",
+        "\n",
+        "    results = []\n",
+        "\n",
+        "    for idx in indices[0]:\n",
+        "        if idx >= 0:\n",
+        "            results.append(chunks[idx])\n",
+        "\n",
+        "    return results\n"
+      ],
+      "metadata": {
+        "id": "nRRFJhVu-LG6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def ask_question(question):\n",
+        "\n",
+        "    if not question.strip():\n",
+        "        return \"Please enter a question.\"\n",
+        "\n",
+        "    retrieved_chunks = retrieve_documents(question)\n",
+        "\n",
+        "    context = \"\\n\".join(retrieved_chunks)\n",
+        "\n",
+        "    prompt = f\"\"\"\n",
+        "    Answer the question using only the provided context.\n",
+        "\n",
+        "    If the answer is not available in the context,\n",
+        "    say: The information is not available in the document.\n",
+        "\n",
+        "    Context:\n",
+        "    {context}\n",
+        "\n",
+        "    Question:\n",
+        "    {question}\n",
+        "\n",
+        "    Answer:\n",
+        "    \"\"\"\n",
+        "\n",
+        "    response = generator(\n",
+        "        prompt,\n",
+        "        max_new_tokens=200,\n",
+        "        do_sample=False,\n",
+        "        truncation=True\n",
+        "    )\n",
+        "\n",
+        "    return response[0][\"generated_text\"]\n"
+      ],
+      "metadata": {
+        "id": "nT6pE-y6-NLO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "question = \"What is the main topic of this document?\"\n",
+        "\n",
+        "answer = ask_question(question)\n",
+        "\n",
+        "print(\"Question:\", question)\n",
+        "print(\"\\nAI Answer:\", answer)\n"
+      ],
+      "metadata": {
+        "id": "xPI9oMXG-PJY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "with gr.Blocks(title=\"Chat With Your Documents\") as demo:\n",
+        "\n",
+        "    gr.Markdown(\n",
+        "        \"# 📚 Chat With Your Documents\"\n",
+        "    )\n",
+        "\n",
+        "    gr.Markdown(\n",
+        "        \"Upload a PDF and ask questions using AI-powered RAG.\"\n",
+        "    )\n",
+        "\n",
+        "    question = gr.Textbox(\n",
+        "        label=\"Enter your question\",\n",
+        "        placeholder=\"Ask something about your document...\"\n",
+        "    )\n",
+        "\n",
+        "    answer = gr.Textbox(\n",
+        "        label=\"AI Answer\",\n",
+        "        lines=6\n",
+        "    )\n",
+        "\n",
+        "    submit = gr.Button(\"Ask Question\")\n",
+        "\n",
+        "    submit.click(\n",
+        "        fn=ask_question,\n",
+        "        inputs=question,\n",
+        "        outputs=answer\n",
+        "    )\n",
+        "\n",
+        "demo.launch(share=True)\n"
+      ],
+      "metadata": {
+        "id": "Q-pTshmg-QtS"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
